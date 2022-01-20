@@ -2,3 +2,22 @@ body {
     background-color: #F5F5DC;
 }
 
+.sectionBorder {
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.aboutPic {
+    margin: auto;
+    flex-direction: column;
+    order:1;
+}
+
+.aboutText {
+    flex-direction: column;
+    order:2;
+}
+
+#about {
+    margin: 30px 200px;
+}
