@@ -37,12 +37,15 @@ li {
     background-color: white;
 }
 
+/* styling for sections */
 #about,
 #projects,
 #contact {
     margin: 30px 350px;
 }
 
+
+/* Media Queries */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #about,
@@ -95,6 +98,14 @@ li {
     #about,
     #projects,
     #contact {
-    margin: 30px 350px;
+        margin: 30px 150px;
+    }
 }
+
+@media only screen and (min-width: 1800px) {
+    #about,
+    #projects,
+    #contact {
+        margin: 30px 350px;
+    }
 }
