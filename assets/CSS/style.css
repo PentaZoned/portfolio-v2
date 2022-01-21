@@ -50,6 +50,17 @@ li {
     #contact {
         margin: 0;
     }
+    
+    #about,
+    #feed,
+    #weather,
+    #portfolio {
+        flex-wrap: wrap;
+    }
+
+    header div {
+       display: flex; 
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -66,7 +77,7 @@ li {
     #about,
     #projects,
     #contact {
-        margin: 0;
+        margin: 20px;
     }
 }
 
@@ -75,11 +86,15 @@ li {
     #about,
     #projects,
     #contact {
-        margin: 0;
+        margin: 20px;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+    #about,
+    #projects,
+    #contact {
+    margin: 30px 350px;
+}
 }
